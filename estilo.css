@@ -1,0 +1,674 @@
+/*CSS do T1*/
+
+
+
+*{/*limpar configurações padroes*/
+	margin:0;
+	padding:0;
+}
+
+body{
+	font-family: Helvetica, "Trebuchet MS", sans-serif;
+	
+	background-color: #F8F8FF;
+	
+}
+
+#container{
+	margin: 0 auto;
+	width: 1100px; 
+	background-color: #FFFF;
+	
+}
+
+/*inicio da area topo*/
+#topo{
+	height: 151px;
+	position: relative;
+	background-color: #4169E1;
+
+}
+
+#area-logo{
+	position: absolute;
+}
+
+/*inicio da area menu inicial*/
+#menu-horizontal{
+	margin-top: 15px;
+	
+}
+
+a{
+	text-decoration:none;
+}
+
+ul{
+	list-style: none;
+}
+
+#navegação{/*permite o menu flutuar para a direita*/
+	float: right;
+	margin-right: 10px;
+	margin-top: 26px;
+}
+
+#navegação a{/*configura os links do menu*/ 
+	text-transform: uppercase;
+	font-size: 0.8em;
+	padding: 6px;
+	color: #F8F8FF;
+	line-height: 100px;
+	font-weight: 600;
+}
+#navegação a:hover {
+	background: #FAED27;
+	color: #000000;
+}
+
+#cliente{/*para chamar atenção esse bloco vai ter essa cor*/
+	
+	border:2px solid #FAED27;
+	
+}
+/*fim da área menu inicial*/
+
+/*inicio do conteudo*/
+
+/*INICIO DA AREA ANUNCIO*/
+
+#anuncio{
+	height: 425px;
+	padding-bottom: 20px;
+}
+
+#img-anuncio{
+
+	margin-top: 20px;
+	
+}
+
+/*FIM DA AREA ANUNCIO*/
+
+/*area tres-conteudos*/
+
+#tres-conteudos{ /*container de toda essa area*/
+	height: 500px;
+	position: relative;
+
+}
+
+#tres-conteudos h3{
+	text-align: center;
+	margin-top: 100px;
+	font-size: 1.7em;
+}
+#conteudo-um{/*o conteudo mais a esquerda*/
+	float: left;
+	width:150px;
+	
+	margin-top: 80px;
+	margin-left: 100px;
+		 
+}
+
+img.imagem-triade{/*para imagens dessa area*/
+	width: 80%;
+}
+
+#conteudo-dois{/*para inserir dois conteudos*/
+	float: right;
+	/*assim deixa o conteudo no meio*/
+	width:660px;
+	margin-top: 80px;
+	
+	
+}
+
+#conteudo-centro{
+	float: left;
+	width: 150px;
+	margin-left: 36px;
+	
+
+}
+#conteudo-tres{
+	float: right;
+	width: 150px;
+	margin-right: 100px;
+	
+}
+
+/*fim da area tres conteudos*/
+
+/*inicio da area descrição*/
+
+#descrição{
+	padding-top: 40px;
+	height: 250px;
+	background-color: #4169E1;
+}
+
+.centro-info h3{
+
+	font-size: 1.6em;
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+
+.centro-info{
+	text-align: center;
+	margin-top: 60px;
+	width: 600px;
+	margin: 0 auto;
+	line-height: 1.8;
+}
+
+/*FIM DA AREA DESCRIÇÃO*/
+
+
+
+/*INICIO DA AREA SERVIÇOS DA HOME*/
+
+#area-serviços-home{
+	height: 980px;
+	position: relative;
+}
+#area-serviços-home h3{
+	text-align: center;
+	font-size: 1.7em;
+	margin-top: 80px;
+	margin-bottom: 80px;
+}
+
+.imagem-serviços{
+	height: 260px;
+	width: 360px;
+
+}
+
+#dupla-superior{
+	height: 300px;
+	margin-top: 55px;
+}
+#serviço-1{
+	
+	margin-left: 90px;
+	float: left;
+	height: 280px;
+	width: 360px;
+	text-align: center;
+}
+
+#serviço-2{
+	
+	margin-right: 90px;
+	float: right;
+	height: 280px;
+	width: 360px;
+	text-align: center;
+}
+
+#dupla-inferior{
+	height: 300px;
+	margin-top: 90px
+}
+#serviço-3{
+	
+	margin-left: 90px;
+	float: left;
+	height: 280px;
+	width: 360px;
+	text-align: center;
+}
+
+#serviço-4{
+	
+	margin-right: 90px;
+	float: right;
+	height: 280px;
+	width: 360px;
+	text-align: center;
+}
+
+/*FIM DA ÁREA SERVIÇOS*/
+
+/*INICIO ÁREA DESPEDIDA*/
+
+#area-despedida{
+	padding-top: 20px;
+	background-color: #1a1a1a; 
+	height: 200px;
+
+}
+
+
+#area-despedida a{
+	color: #f5f5ff ;
+	
+	margin-right: 20px;
+	font-weight: 520;
+}
+
+#area-despedida a:hover {
+	color: #fde910;
+}
+
+
+#navegação-final{ 
+	float: left;
+	width: 45%;
+	font-size: 1em;
+	color: #f5f5ff;
+	margin-left: 50px;
+
+}
+
+
+#contatos-final{/*referente a contatos da area despedida*/
+	
+	float: right;
+	width: 50%;
+	font-size: 1em;
+	color: #f5f5ff;
+}
+#imagem-email2{
+	width: 25px;
+	height: 25px;
+	margin-right: 5px;
+}
+#imagem-whats2{
+	width: 21px;
+	height: 21px;
+	margin-right: 5px;
+	margin-left: 20px;
+
+}
+/*FIM DA AREA DESPEDIDA*/
+
+/*AREA RODAPÉ*/
+#container-rodape{
+	padding: 0px;
+
+}
+
+#rodape{
+	height: 40px;
+	width: 1100px;
+	margin: 0 auto;
+	background-color: #0114ed;
+}
+#rodape p{
+	padding-top:10px;
+	padding-left: 15px;
+}
+
+/*FIM DA FORMATAÇÃO DA PAGINA HOME*/
+
+
+
+
+
+
+/*Formatação da pagina Quem Somos*/
+
+
+#texto-somos{
+	padding-top: 20px;
+	padding-bottom: 40px;
+	
+}
+#texto-somos h2{
+	margin-bottom: 20px;
+	margin-top: 30px;
+	text-align: center;
+}
+#texto-somos p{
+	text-indent: 2em;
+	text-align: justify;
+	line-height: 1.8;
+	margin-right: 20px;
+	margin-left: 20px;
+
+}
+.imagem-somos{
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+
+}
+
+figure {
+	text-align: center;
+	font-size: small;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+
+/*FIM DA FORMATAÇÃO DA PAGINA QUEM SOMOS*/
+
+
+
+
+/*INICIO DA FORMATAÇÃO DA PÁGINA SERVIÇOS*/
+
+#conteudo-serviços{
+	margin-top: 80px;
+	position: relative;
+}
+
+.titulo-serviços{
+	text-align: center;
+	margin-bottom: 80px;
+	font-size: 1.8em;
+
+}
+.imagem-serviço2{
+	height: 300px;
+	width: 400px;
+	float: left;
+	margin-top: 25px;
+	padding-left: 30px;
+}
+
+.lista-serv{
+	position: relative;
+	left: 70px;
+	text-align: justify;
+	top: 80px;
+	list-style-type: square; 
+	font-size: 1.1em;
+	font-weight: 750;
+}
+.lista-serv li{
+	margin-top:20px;
+	margin-bottom: 20px;
+
+}
+
+.serv-titulo{
+	position: relative;
+	left: 35px;
+	top: 77px;
+	font-size: 1.6em;
+}
+
+#serv1{
+
+	height: 350px;
+	width: 1100px;
+	background-color: #4169E1;
+	color:#F8F8FF;
+	margin-bottom: 80px;
+}
+
+#serv2{
+	height: 350px;
+	width: 1100px;
+	margin-bottom: 80px;
+}
+
+#serv3{
+	height: 350px;
+	width: 1100px;
+	background-color: #4169E1;
+	color:#F8F8FF;
+	margin-bottom: 80px;
+}
+
+#serv4{
+	height: 350px;
+	width: 1100px;
+	margin-bottom: 50px;
+}
+
+
+/*FIM DA FORMATAÇÃO DA PÁGINA SERVIÇOS*/
+
+
+
+
+
+/*COMEÇO DA PÁGINA PLANOS*/
+
+#planos{
+	height: 980px;
+	position: relative;
+	margin-top: 130px;
+	
+}
+
+#planos h3{
+	text-align: center;
+	font-size: 1.8em;
+	margin-bottom: 80px;
+}
+#planos p{
+	text-align: center;
+}
+
+.plano-img{
+	height: 200px;
+	width: 200px;
+	padding-top: 15px;
+	padding-left: 25px;
+}
+
+
+#plano-1{
+	height: 490px;
+	width: 250px;
+	float: left;
+	margin-left: 30px;
+	background-color: #c4c4c4;
+}
+
+#planos-melhores{
+	height: 800px;
+	width: 680px;
+	float: right;
+	
+}
+
+#plano-2{
+	height: 600px;
+	width: 250px;
+	float: left;
+	background-color: #2e3dcc;
+	
+}
+
+#plano-3{
+	height: 700px;
+	width: 250px;
+	float: right;
+	margin-right: 30px;
+	background-color: #DAA520;
+	
+}
+
+.menu-planos{
+	list-style: circle;
+	padding-left: 45px;
+}
+.titulo-planos{
+	padding-top: 15px;
+	padding-bottom: 15px;
+	text-align: center;
+}
+.menu-planos li{
+	padding-bottom: 10px;
+
+}
+
+.adquirir{
+	font-weight: 550;
+	margin-top: 20px;
+}
+
+.adquirir a{
+	color: #F8F8FF;
+
+}
+
+
+/*FIM DA FORMATAÇÃO DA PÁGINA PLANOS*/
+
+
+
+
+
+/*COMEÇO DA FORMATAÇÃO DA PÁGINA CONTATOS*/
+
+#contatos{
+
+	height: 400px;
+	margin-top: 120px;
+	
+}
+
+
+#imagem-email {
+	height: 39px;
+	width: 40px;
+}
+
+#imagem-whats {
+	height: 35px;
+	width: 45px;
+}
+
+.titulo-contatos{
+	text-align: center;
+	font-size: 1.8em;
+	margin-bottom: 20px;
+}
+
+#texto-contatos{
+	text-align: center;
+	margin-bottom: 30px;
+	font-size: 1.1em;
+	font-weight: 500;
+}
+
+#texto-contatos2{
+	text-align: center;
+	font-size: 1.1em;
+	font-weight: 500;
+}
+
+
+#mensagem{
+	position: relative;
+	left: 320px;
+	width: 800px;
+	height: 500px;
+	margin-bottom: 30px;
+}
+
+
+fieldset{
+	
+	border: 3px solid #4169E1;
+	background:#f5f5f5; 
+	padding: 40px;
+	width: 400px;
+}
+legend{
+	font-style: bold;
+	font-family: Helvetica, "Trebuchet MS", sans-serif;
+	font-size: 1em;
+	margin: 1em auto;
+}
+
+label{
+
+	display: block;
+	cursor: pointer;
+}
+
+input[type="text"]{
+width: 25em;
+}
+
+/*FIM DA FORMATAÇÃO DA PÁGINA CONTATOS*/
+
+
+
+
+
+/*COMEÇO DA FORMATAÇÃO DA PÁGINA CADASTRO*/
+#cadastro{
+	position: relative;
+	left: 300px;
+	height: 800px;
+	width: 500px;
+}
+
+#cadastro h2{
+	margin-top: 50px;
+	margin-bottom: 50px;
+	text-align: center;
+	font-size: 1.8em;
+}
+
+
+#sobre-empresa{
+	margin-bottom: 20px;
+}
+
+/*FIM DA FORMATAÇÃO DA PÁGINA CADASTRO*/
+
+
+
+
+
+
+
+
+/*INICIO DA FORMATAÇÃO DA PÁGINA LOGIN*/
+
+
+#login{
+	width: 400px;
+	height: 300px;
+	margin: 0 auto;
+	margin-top: 120px;
+	text-align: center;
+	padding-bottom: 50px;
+}
+
+#login input{
+	height: 40px;
+	width: 80%;/*ja foi estabelecido no container*/
+	font-size: 18px;
+	margin-bottom: 10px;/*cria um espaço entre os digitaveis*/
+	background-color: #fff;
+	padding-left: 40px;
+	border: solid;
+	background-repeat: no-repeat;
+	background-position: 10px;
+
+}
+
+
+#login input.email{
+	background-image: url(imagens/cadastro/icone-usuario.png);
+}
+
+#login input.senha{
+	background-image: url(imagens/cadastro/icone-cadeado.png);
+}
+
+#login input.submit{
+	color: #fff;
+	background-color: #f79300;
+	border: 2px solid #db7d00;
+	padding: 5px 20px;
+	height: 45px;
+	width:100%;
+	background: linear-gradient(to bottom, #ffde3c, #e6e622);
+
+}
+/*FIM DA FORMATAÇÃO DA PÁGINA LOGIN*/
